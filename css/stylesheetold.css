@@ -1,0 +1,673 @@
+body
+{
+	margin: 0px 0px 0px 0px;
+	/*background-color: #000000;*/
+	text-align: center;	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px; 
+	
+}
+
+#Holder
+{
+	width:765px;
+	background-color: #FFFFFF;
+	margin: 5px auto 5px auto;
+	text-align: left;
+	
+}
+
+#Header
+{
+	width: 765px;
+	height: 71px;
+	background-image:url(../images/header.jpg);
+	background-repeat:no-repeat;
+}
+
+#ContentSection
+{
+	width: 765px;
+	margin-top:3px;
+}
+
+#Navg
+{
+	float:left;
+	width:190px;
+}
+
+.leftMenuLinks a
+{
+	margin-bottom: 1px;
+	background-color: #E6EEF0;
+	width: 180px;
+	color: #6C7B8B;
+	height: 22px;
+	text-decoration: none;
+	display:block;
+	padding: 5px;
+}
+.leftMenuLinks a:hover
+{
+	background-color: #AABBCC;
+	color:#6C7B8B;
+	font-weight: bold;
+	text-decoration: none;
+}
+#leftImage1
+{
+	width : 190px;
+	height : 43px;
+	margin-top :1px;
+	background-image : url(../images/img1_21.gif);
+	background-repeat:no-repeat;
+	margin-top : 2px;
+	
+}
+#leftImage2
+{
+	width : 190px;
+	height : 28px;
+	margin-top : 2px;
+	background-image : url(../images/customer_feedback.gif);
+	background-repeat:no-repeat;
+}
+
+#leftImage2
+{
+	width : 190px;
+	height : 28px;
+	margin-top : 2px;
+	background-color:#KKGGBB;
+}
+
+#leftImage3
+{
+	width : 190px;
+	height : 172px;
+	margin-top : 2px;
+	background-image : url(../images/doctor1.jpg);
+	background-repeat:no-repeat;
+}
+
+#leftContent
+{
+	width:190px;
+	background-color:#999999;
+	color:#FFFFFF;
+	margin-top:2px;
+}
+
+#leftContent b
+{
+	font-weight:bold;
+	font-weight:2em;
+	color : #000000;
+}
+
+#ContentMain
+{
+	float:right;
+	width: 562px;
+}
+
+.highlightHeaderText
+{
+	background-color:#B4CDCD;
+	width:100px;
+	color:#6C7B8B;
+}
+
+.contentMainHeader
+{
+	width: 566px;
+	background-color:#B4CDCD;
+	color:#6C7B8B;
+	font-weight:bold;
+	font-size:1.1em;
+	border:0.5px solid #FFFFFF;
+}
+
+#mandatoryFields
+{
+	text-align:left;
+	color :#FF0000;
+	font-size:0.8em;
+}
+
+#ContentMainImage
+{
+	width: 562px;
+	height: 203px;
+	background-image:url(../images/1.jpg);
+	background-repeat:no-repeat;
+	
+}
+
+#welcomeLogo
+{
+	width : 109px;
+	height : 22px;
+	margin : 10px 100px 20px 15px;
+	background-image : url(../images/welcome.gif);
+	background-repeat:no-repeat;
+}
+
+#ContentMainDesc
+{
+	width:566px;
+	margin-top:2px;
+	border:1px solid #EEEEEE;
+	min-height:500px;
+ 	height:auto !important;
+ 	/*overflow:auto;*/
+}
+
+.textContent
+{
+	margin-left:15px;
+	margin-right:30px;
+	margin-top:20px;
+}
+
+.ProgramListHeading
+{
+	color : #337C8D;
+	font-weight:1.5em;
+	font-weight:bold;
+}
+
+.PrgList
+{
+	margin-left : 30px;
+	margin-top:20px;
+	font-weight : bold;
+	font-weight:3em;
+	margin-bottom:10px;
+}
+
+.labelOfInput
+{
+	background-color:#E7EFF1;
+	text-align:right;
+	/*font-size:.9em;*/
+}
+.inputbox
+{
+	background-color:#E7EFF1;
+	/*font-size:.9em;*/
+	text-align:left;
+}
+#CallEmailUsSection
+{
+	height:30px;
+	width :550px;
+	background-color : #FFFFFF;
+	margin-left : 5px;
+	margin-top : 5px;
+	margin-right : 10px;
+	text-align:center;
+}
+
+.CallUsButton
+{
+	float:left;
+	margin-left:35px;
+	margin-top:0px; 
+	width:210px;
+	min-width:210px;
+}
+
+.EmailUsButton
+{
+	text-decoration:none;
+	float:left;
+	margin-right:40px;
+	margin-top:0px; 
+	width:210px;
+	min-width:210px;
+}
+.CallUsButtonDocOpt
+{
+	float:left;
+	margin-left:40px;
+	margin-top:15px; 
+}
+
+.EmailUsButtonDocOpt
+{
+	text-decoration:none;
+	float:right;
+	margin-right:40px;
+	margin-top:15px; 
+}
+.email
+{
+	text-decoration:none;
+	
+}
+.CallEmailContent
+{
+	float:left;
+	margin-top:4px;
+	text-align:center;
+	width:15px;
+	min-width:15px;
+}
+
+.ClearFloat
+{
+	clear:both;
+	border:none;
+}
+
+.highlightContent
+{
+	font-weight:bold;
+	font-weight:2em;
+	color:#FFFFFF;
+	dispaly:inline;
+	background-color: #E6EEF0;
+	color: #6C7B8B;
+}
+#Footer
+{
+	width: 765px;
+	margin-top:5px;
+}
+
+#FooterBar
+{
+	width: 765px;
+	height: 10px;
+	background-image:url(../images/hbar.gif);
+	background-repeat:no-repeat;
+}
+
+#footerTextLeft
+{
+	float:left;
+	margin-top:3px;
+}
+
+.highlightFooterText
+{
+	background-color:#E0EEE0;
+	width:150px;
+	text-align:right;
+}
+
+#footerTextRight
+{
+	float:right;
+	padding-top:0px;
+	margin-top:15px;
+}
+
+#footerTextRightIrmac
+{
+	text-decoration:none;
+	color:#EEBBCC;
+	font-weight:bold;
+	font-weight:3em;
+}
+
+#horizontalMenu
+{
+	
+	color:#ADD8E6;
+	font-weight:normal;
+}
+
+ul
+{
+float:left;
+width:100%;
+padding:0;
+margin:0;
+list-style-type:none;
+}
+
+.policyList
+{
+	float:left;
+	margin-left: 1px;
+	text-decoration:none;
+	color:#ADD8E6;
+}
+
+.listItem
+{
+display:inline-block;
+}
+
+.bar
+{
+	color:#000000;
+	margin-left:3px;
+	margin-right:3px;
+}
+
+/*CME Provider Lounge*/
+ol
+{
+	
+	margin-left:25px;
+	font-weight:normal;
+}
+ol li
+{
+	font-weight:normal;
+}
+#loginBox
+{
+	background-color:#E6EEF0;
+	margin: 50px auto 0 auto;
+	border:1px solid #666666;
+	min-height:200px;
+	min-width:375px;
+	height:200px;
+	width:450px;
+	
+}
+.labelOfLogin
+{
+	float:left;
+	width:125px;
+	margin-left:80px;
+	margin-top:27px;
+	
+	
+}
+.inputLogin
+{
+	float:left;
+	width:125px;
+	margin-left:0px;
+	margin-top:25px;
+	
+}
+.loginButton
+{
+	float:right;
+	width:235px;
+	margin-top:10px;
+	
+}
+a
+{
+	text-decoration:none;
+}
+.loginBoxContent
+{
+	margin-left:70px;
+	margin-top:5px;
+}
+.logininput
+{
+	margin-left:0px;
+	margin-top:0px;
+}
+/*CME Provider Lounge -- End*/
+
+/*Doctor's Lounge*/
+.highlight
+{
+	font-weight:bold;
+	color:maroon;
+	text-decoration:none;
+}
+.highlightLink a
+{
+	color:maroon;
+	font-weight:bold;
+}
+
+
+.optionColumn
+{
+	float:left;
+	width:300px;
+	min-width:300px;
+	margin-left :30px;
+	margin-top : 20px;
+}
+
+.buttonColumn
+{
+	float:left;
+	width:100px;
+	min-width:100px;
+	margin-left :30px;
+	margin-top : 20px;
+}
+
+.clearLeftFloat
+{
+	clear:left;
+	border:none;
+}
+a:link
+{
+	text-decoration: none;
+	color: #55737B;
+}
+a:visited
+{
+	text-decoration: none;
+	color: #55737B;
+}
+a:hover
+{
+	text-decoration: underline;
+	color: #337C8D;
+}
+a:active
+{
+	text-decoration: none;
+	color: #55737B;
+}
+
+.searchBox
+{
+	background-color:#E6EEF0;
+	/*margin: 40 15px 15px 15px;*/
+	border:1px solid #666666;
+	margin-left:25px;
+	margin-right:5px;
+	min-height:300px;
+	min-width:510px;
+	height:300px;
+	width:510px;
+	font-size:.95em;
+}
+
+.searchFirstLineCol
+{
+	float:left;
+	width:295px;
+	min-width:295px;
+	margin-left :10px;
+	margin-top : 3px;
+	
+}
+
+.searchFirstCol
+{
+	float:left;
+	width:295px;
+	min-width:295px;
+	margin-left :10px;
+	margin-top : 25px;
+	
+}
+
+.searchFirstSecondCol
+{
+	float:left;
+	width:190px;
+	min-width:190px;
+	margin-left :10px;
+	margin-top : 38px;
+	
+	
+}
+.searchSecondSecondCol
+{
+	float:left;
+	width:190px;
+	min-width:190px;
+	margin-left :8px;
+	margin-top : 35px;
+	
+	
+}
+.searchThirdSecondCol
+{
+	float:left;
+	width:190px;
+	min-width:190px;
+	margin-left :10px;
+	margin-top : 26px;
+	
+	
+}
+/*Doctor's Lounge End*/
+/*CME Course Search page*/
+.tabledata
+{
+	text-align:left;
+	font-size:.8em;
+}
+#resultBox
+{
+	margin-left:10px;
+	margin-right:10px;
+	
+}
+#displayBox
+{
+	margin-left:10px;
+	margin-right:10px;
+	background-color: #E6EEF0;
+	text-align:left;
+}
+.logininfo
+{
+	text-align:right;
+	margin-left:150px;
+}
+.logininfoCMEP
+{
+	
+	margin-right:0px;
+	margin-left:148px;
+}
+.paginationbar
+{
+	text-align:center;
+}
+.optionsBox
+{
+	background-color:#E6EEF0;
+	margin: 40 15px 0 15px;
+	border:1px solid #666666;
+	width:475px;
+	height:200px;
+}
+.optionsBoxCME
+{
+	background-color:#E6EEF0;
+	margin: 40 15px 0 15px;
+	border:1px solid #666666;
+	width:475px;
+	height:200px;
+}
+.optionsBoxDoc
+{
+	background-color:#E6EEF0;
+	margin: 40 15px 0 15px;
+	border:1px solid #666666;
+	width:475px;
+	height:240px;
+}
+.optionsBoxAgent
+{
+	background-color:#E6EEF0;
+	margin: 40 15px 0 15px;
+	border:1px solid #666666;
+	width:475px;
+	height:150px;
+}
+#optionsBox
+{
+	background-color:#E6EEF0;
+	margin: 40 15px 0 15px;
+	border:1px solid #666666;
+	min-height:200px;
+	min-width:475px;
+	height:200px;
+	width:475px;
+}
+/*CME Course Search page End*/
+
+/*About Us*/
+ol
+{
+	margin-left:0px;
+}
+ol li
+{
+	margin-left:2px;
+	font-weight:normal;
+	
+}
+/*About Us End*/
+/*Contact Us*/
+.imgright
+{
+	background-color:#FFFFFF;
+	float:right;
+	margin-top:0px;
+	
+}
+.clearFloatRight
+{
+	clear:right;
+	border:none;
+}
+/*Contact Us End*/
+/*CME Provider Lounge*/
+.cmeloungefootnote
+{
+	color: #55737B;
+}
+/*CME Provider Lounge End*/
+.ERROR
+{
+	/*background-color:#AABBFF;*/
+	color:red;
+	
+}
+.success
+{
+	background-color:#AABBFF;
+	
+}
+/*doccmeAdmin css styling */
+.optionsBox
+{
+	background-color:#E6EEF0;
+	margin: 40 15px 0 15px;
+	border:1px solid #666666;
+	
+	width:475px;
+}
+#headerText
+{
+	color:#FFFFFF;
+	text-align:right;
+	margin-right:30px;
+	margin-bottom:2px;
+}
